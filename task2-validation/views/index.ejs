@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 2 - Validation</title>
+
+  <script>
+    function validateForm() {
+      const name = document.forms["userForm"]["username"].value;
+
+      if (name === "") {
+        alert("Name cannot be empty");
+        return false;
+      }
+
+      if (name.length < 3) {
+        alert("Name must be at least 3 characters");
+        return false;
+      }
+
+      return true;
+    }
+  </script>
+
+</head>
+<body>
+  <h2>User Form (Task 2)</h2>
+
+  <form name="userForm" action="/submit" method="POST" onsubmit="return validateForm()">
+    <label>Enter Name:</label><br><br>
+    <input type="text" name="username">
+    <br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
