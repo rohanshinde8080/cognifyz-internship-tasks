@@ -53,9 +53,6 @@ Each task folder contains screenshots showing the working output.
 **Rohan Shinde**  
 Full Stack Development Intern – Cognifyz Technologies  
 
-GitHub:  
-https://github.com/rohanshinde8080/cognifyz-internship-tasks
-
 ---
 
 ## 📌 Note
